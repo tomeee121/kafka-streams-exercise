@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fb60e4-60a9-4c51-8e17-3fb63526b44c" name="Changes" comment="topologia streamu">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="05fb60e4-60a9-4c51-8e17-3fb63526b44c" name="Changes" comment="kafka with zookeeper docker images">
+      <change afterPath="$PROJECT_DIR$/scripts/create-topics.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703667616177</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kafka with zookeeper docker images">
+      <created>1703675206074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703675206074</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="props for streams" />
     <MESSAGE value="topologia streamu" />
-    <option name="LAST_COMMIT_MESSAGE" value="topologia streamu" />
+    <MESSAGE value="kafka with zookeeper docker images" />
+    <option name="LAST_COMMIT_MESSAGE" value="kafka with zookeeper docker images" />
   </component>
 </project>

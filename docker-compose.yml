@@ -30,3 +30,13 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
 
+  kafka-create-topic:
+    image: confluentinc/cp-kafka:7.4.3
+    hostname: kafka-create-topic
+    container_name: kafka-create-topic
+    depends_on:
+      - kafka
+    working_dir: /scripts
+    command: ["bash","./create-topics.sh"]
+    volumes:
+      - ./scripts:/scripts
